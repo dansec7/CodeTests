@@ -1,3 +1,13 @@
+/* This file is not meant to be taken seriously. The game is played within the IDE when executed, and
+   as a joke, I wanted to write the vast majority of it in just main(). For really annoying stuff I will
+   have methods such as getRandom() so I don't have to write that line of code a million times. getBattle()
+   is a work in progress towards the bottom which will be able to replace the currently very elongated 
+   battle scripting. 
+   
+   Rpg.java has been an idea of mine for a couple years now and is nearly at the bottom on my list of
+   priorities, but it will be worked on over time until I become skilled enough to realize that this is an
+   awful waste of time and energy. This code is not remotely clean nor good practice. It is simply a way 
+   for me to wrap my head around objects in a certain way. */
 
 import java.util.Scanner;
 import java.io.IOException;
