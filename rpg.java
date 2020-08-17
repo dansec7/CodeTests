@@ -184,7 +184,6 @@ public class rpg
        else
        {
          System.out.println("Enter either \"1\", \"2\", \"3\", \"4\", or \"5\"");
-         continue;
        }  
     }
     

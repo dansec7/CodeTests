@@ -40,12 +40,12 @@ public class GroupAssign {
           while (!sc.hasNextInt()) sc.next();
           userInput = sc.nextInt();
        }
-    } while (readyInput == true); 
+    } while (readyInput);
   }
 
   private static void EditGroup(boolean readyInput) throws IOException {
     ArrayList<String> SavedGroup = new ArrayList<String>();
-    int size = SavedGroup.size();
+    int size = 0;
     FileDialog dialog = new FileDialog((Frame)null, "Select File to Open");
     dialog.setMode(FileDialog.LOAD);
     dialog.setVisible(true);
@@ -231,7 +231,7 @@ public class GroupAssign {
             System.out.println("Enter either \"1\", or \"2\"");
             DeleteGroup(readyInput);
         }
-    } while (deleteInput == true);
+    } while (deleteInput);
     readyInput = true;
     Dialog();
   }
